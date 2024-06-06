@@ -161,7 +161,6 @@ if(window.innerWidth >= 500){
                     trigger:"#gradient",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -175,7 +174,6 @@ if(window.innerWidth >= 500){
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -188,7 +186,6 @@ if(window.innerWidth >= 500){
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -201,7 +198,6 @@ if(window.innerWidth >= 500){
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -214,7 +210,6 @@ if(window.innerWidth >= 500){
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -227,7 +222,6 @@ if(window.innerWidth >= 500){
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -240,7 +234,6 @@ if(window.innerWidth >= 500){
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -418,7 +411,6 @@ else{
                     trigger:"#gradient",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -432,7 +424,6 @@ else{
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -445,7 +436,6 @@ else{
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -458,7 +448,6 @@ else{
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -471,7 +460,6 @@ else{
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -484,7 +472,6 @@ else{
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
@@ -497,7 +484,6 @@ else{
                     trigger:".gmail",
                     start:"top 45%",
                     scrub: 2,
-                    markers: true,
                     end: "bottom 100%",
                 },
     });
