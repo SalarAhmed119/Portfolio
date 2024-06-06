@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#page01{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.468);
+    position: relative;
+    overflow: hidden;
+}
+#big-circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(5.6);
+    width: 20%;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 1;
+}
+#small-circle{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 0.8vw;
+    opacity: 0;
+    background-color: gainsboro;
+}
+#aboutme{
+    color: #000;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 0.5vw;
+    opacity: 0;
+    z-index: 1000;
+}
+#projects{
+    color: #000;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 0.5vw;
+    opacity: 0;
+    z-index: 999;
+}
+#page01 > nav{
+    position: absolute;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 9999;
+}
+#page01 > nav > button{
+    width: 5vw;
+    height: 2vw;
+    border-radius: 10%;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+#page01 > h1{
+    position: absolute;
+    z-index: 9999;
+}
+#frontend{
+    font-size: 15vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    top: 15%;
+    left: 5%;
+    text-wrap: nowrap;
+}
+#developer{
+    color: #fff;
+    font-size: 15vw;
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: uppercase;
+    top: 43%;
+    left: 5%;
+    text-wrap: nowrap;
+}
+#circle{
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    display: initial;
+}
+#circle-top{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#circle-btm{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#circle img{
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#circle-top img, #circle-btm img{
+    width: 100%;
+    height: 100%;
+}
+#circle-top img{
+    transform: rotate(180deg);
+    top: -24%;
+    left: 0%;
+}
+
+/* CIRCLE TOP IMAGES */
+#circle-top img:nth-child(1){
+    transform: rotate(180deg) scale(1.6);
+    top: -36%;
+}
+#circle-top img:nth-child(2){
+    transform: rotate(180deg) scale(1.3);
+    top: -30%;
+}
+/* CIRCLE BOTTOM IMAGES */
+#circle-btm img:nth-child(1){
+    transform: translate(-50%,-50%) scale(1.6);
+    top: 77%;
+}
+#circle-btm img:nth-child(2){
+    transform: translate(-50%,-50%) scale(1.3);
+    top: 71%;
+}
+#about-me{
+    width: 30%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.519);
+    position: absolute;
+    bottom: -50%;
+    right: 2%;
+    padding: 0 2vw;
+}
+#about-me > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: .5vw;
+    font-weight: 600;
+}
+#about-me > p{
+    font-size: 1.2vw;
+    color: #fff;
+}
+#about-me > h2{
+    color: #fff;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+#about-me > h2 > span > a{
+    text-decoration: none;
+    color: #fff;
+}
+#gola{
+    width: 30%;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+}
+#app{
+    position: absolute;
+    bottom: 50%;
+    left: 100%;
+    color: #fff;
+    font-size: 10vw;
+    text-wrap: nowrap;
+}
+#app1{
+    position: absolute;
+    bottom: 20%;
+    left:-200%;
+    color: #fff;
+    font-size: 10vw;
+    text-wrap: nowrap;
+}
+#page02{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+#page02 > h1{
+    font-size: 8.5vw;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#projectsCard{
+    position: absolute;
+    left: 100%;
+}
+#cards1, #cards2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw 0 8.5vw;
+}
+#cards2{
+    justify-content: center;
+    padding: 0 2vw 2vw 8.5vw;
+}
+.card{
+    width: 30%;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.292);
+    margin: 2vw 2vw 0vw 2vw;
+    color: black;
+    cursor: pointer;
+    transform: rotateZ(30deg);
+}
+.card:hover{
+    transform: rotateZ(0deg) scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.card img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    padding: 1vw 1vw;
+}
+.card h3{
+    padding: 0vw 2vw;
+    font-size: 1.7vw;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#gradient{
+    width: 100%;
+    height: 380px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.plate{
+    width: 20%;
+    height: 0%;
+    position: absolute;
+}
+.plate1{
+    background-color: #8080804f;
+    left: 0%;
+}
+.plate2{
+    background-color: #8080808d;
+    left:20%;
+}
+.plate3{
+    background-color: #808082ac;
+    left:40%;
+}
+.plate4{
+    background-color: #5c5c5c5c;
+    left:60%;
+}
+.plate5{
+    background-color: #808081f1;
+    left:80%;
+}
+#contact-me{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#contact-me > .gmail{
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    left: 150%;
+    transform: translate(-50%,-50%);
+    font-size: 5vw;
+    text-wrap: nowrap;
+}
+#contact-me > #email{
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    left: -40%;
+    transform: translate(-50%,-50%);
+    font-size: 3vw;
+    text-wrap: nowrap;
+    color: #fff;
+}
+#contact-me > .linkedin{
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 140%;
+    transform: translate(-50%,-50%);
+    font-size: 5vw;
+    text-wrap: nowrap;
+}
+#contact-me > #linkedin > a{
+    opacity: 0;
+    position: absolute;
+    top: 75%;
+    left: -60%;
+    transform: translate(-50%,-50%);
+    font-size: 3vw;
+    text-wrap: nowrap;
+    color: #fff;
+    text-decoration: none;
+}
+#contact-me > .github{
+    opacity: 0;
+    position: absolute;
+    top: 110%;
+    left: 150%;
+    transform: translate(-50%,-50%);
+    font-size: 5vw;
+    text-wrap: nowrap;
+}
+#contact-me > #github > a{
+    opacity: 1;
+    position: absolute;
+    top: 125%;
+    left: -50%;
+    transform: translate(-50%,-50%);
+    font-size: 3vw;
+    text-wrap: nowrap;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */
