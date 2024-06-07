@@ -317,6 +317,9 @@ else{
         duration: 2,
         ease:"easeInOut",
     })
+    .to("#small-circle",{
+        top:"50%",
+    })
     .to("#projects",{
         top:"50%"
     })
@@ -403,7 +406,7 @@ else{
         duration: 4,
     })
     .to("#page02>#gradient>.plate",{
-        height:"130%",
+        height:"111%",
         duration: 1,
         stagger: 1,
         ease:"easeInOut",
@@ -411,7 +414,8 @@ else{
                     trigger:"#gradient",
                     start:"top 45%",
                     scrub: 2,
-                    end: "bottom 100%",
+                    marker: true,
+                    end: "top 100%",
                 },
     });
     gsap
@@ -422,9 +426,10 @@ else{
         left:"50%",
         scrollTrigger:{
                     trigger:".gmail",
-                    start:"top 45%",
+                    start:"top 85%",
                     scrub: 2,
-                    end: "bottom 100%",
+                    markers:true,
+                    end: "top 100%",
                 },
     });
     gsap.to("#email",{
@@ -434,9 +439,10 @@ else{
         left:"50%",
         scrollTrigger:{
                     trigger:".gmail",
-                    start:"top 45%",
+                    start:"top 85%",
                     scrub: 2,
-                    end: "bottom 100%",
+                    markers:true,
+                    end: "top 100%",
                 },
     });
     gsap.to(".linkedin",{
@@ -446,9 +452,10 @@ else{
         left:"50%",
         scrollTrigger:{
                     trigger:".gmail",
-                    start:"top 45%",
+                    start:"top 85%",
                     scrub: 2,
-                    end: "bottom 100%",
+                    markers:true,
+                    end: "top 100%",
                 },
     });
     gsap.to("#linkedin>a",{
@@ -458,9 +465,10 @@ else{
         left:"50%",
         scrollTrigger:{
                     trigger:".gmail",
-                    start:"top 45%",
+                    start:"top 85%",
                     scrub: 2,
-                    end: "bottom 100%",
+                    markers:true,
+                    end: "top 100%",
                 },
     });
     gsap.to(".github",{
@@ -470,9 +478,10 @@ else{
         left:"50%",
         scrollTrigger:{
                     trigger:".gmail",
-                    start:"top 45%",
+                    start:"top 85%",
                     scrub: 2,
-                    end: "bottom 100%",
+                    markers:true,
+                    end: "top 100%",
                 },
     });
     gsap.to("#github>a",{
@@ -482,9 +491,10 @@ else{
         left:"50%",
         scrollTrigger:{
                     trigger:".gmail",
-                    start:"top 45%",
+                    start:"top 85%",
                     scrub: 2,
-                    end: "bottom 100%",
+                    markers:true,
+                    end: "top 100%",
                 },
     });
 }

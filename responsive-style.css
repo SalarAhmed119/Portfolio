@@ -76,7 +76,30 @@
         padding: 2vw 2vw;
         font-size: 3vw;
     }
-    #gradient{
-        height: 170px;
+    #contact-me>.gmail{
+        top: 8%;
+        font-size: 6.5vw;
+    }
+    #contact-me>#email{
+        top: 18%;
+        font-size: 6vw;
+    }
+    #contact-me>.linkedin{
+        font-size: 6.5vw;
+        top: 47%;
+    }
+    #contact-me>#linkedin>a{
+        top: 63%;
+        font-size: 6vw;
+        text-align: center;
+        text-wrap:wrap ;
+    }
+    #contact-me>.github{
+        top: 92%;
+        font-size: 6.5vw;
+    }
+    #contact-me>#github>a{
+        top: 103%;
+        font-size: 6vw;
     }
 }
