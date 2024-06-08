@@ -17,7 +17,7 @@
     }
     #about-me{
         width: 50%;
-        height: 25vh;
+        height: 28vh;
     }
     #about-me>h1{
         font-size: 2.6vw;
@@ -101,5 +101,113 @@
     #contact-me>#github>a{
         top: 103%;
         font-size: 6vw;
+    }
+}
+@media(max-width:800px){
+    #big-circle{
+        width: 12%;
+        height: 12vw;
+        transform: translate(-50%, -50%) scale(16.9);
+    }
+    #page01>nav{
+        font-size: 2.5vw;
+    }
+    #frontend{
+        top:40%;
+        left: 7%;
+    }
+    #developer{
+        top: 50%;
+        left: 7%;
+    }
+    #about-me{
+        width: 50%;
+        height: 30vh;
+    }
+    #about-me>h1{
+        font-size: 2.6vw;
+        margin-top: 2.5vw;
+    }
+    #about-me>p{
+        /* font-size: 2.5vw; */
+        font-size: 2.2vw;
+    }
+    #about-me > h2{
+        font-size: 2.2vw;
+    }
+    #circle{
+        width: 50vw;
+        height: 50vw;
+    }
+    #circle-btm img:nth-child(1){
+        left: 50%;
+    }
+    #circle-btm img:nth-child(2){
+        left: 50%;
+    }
+    #circle-btm img:nth-child(3){
+        left: 50%;
+    }
+    #small-circle{
+        width: 30vw;
+        height: 30vw;
+        top: 49%;
+    }
+    #aboutme{
+        top: 49%;
+    }
+    #projects{
+        top: 49%;
+    }
+    #app1{
+        bottom: 41%;
+    }
+    #projectsCard {
+        left: 20%;
+    }
+    #cards1,#cards2{
+        display: block;
+    }
+    .card{
+        transform: none;
+        width: 80%;
+        height: 30vh;
+        margin: 3.5vw 2vw 3.5vw 2vw;
+    }
+    .card:hover{
+        transform: scale(1.1);
+    }
+    .card h3{
+        padding: 2vw 2vw;
+        font-size: 3vw;
+    }
+    #contact-me>.gmail{
+        top: 8%;
+        font-size: 6.5vw;
+    }
+    #contact-me>#email{
+        top: 18%;
+        font-size: 6vw;
+    }
+    #contact-me>.linkedin{
+        font-size: 6.5vw;
+        top: 47%;
+    }
+    #contact-me>#linkedin>a{
+        top: 63%;
+        font-size: 6vw;
+        text-align: center;
+        text-wrap:wrap ;
+    }
+    #contact-me>.github{
+        top: 92%;
+        font-size: 6.5vw;
+    }
+    #contact-me>#github>a{
+        top: 103%;
+        font-size: 6vw;
+    }
+    #page02 > h1{
+        top: -25%;
     }
 }
